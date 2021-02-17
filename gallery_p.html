@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="./css/Bootstrap4.5.2/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <!--font-->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> -->
+    <!--fontawseom-->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+
+    <!-- JS, Popper and Jquery -->
+	
+    <script src="./js/jquery-3.5.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./js/Bootstrap4.5.2/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/css/NavigationBar.css">
+    <link rel="stylesheet" href="./css/loader.css">  <!--sakshi 27-10-->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <!--Calling Navigation Bar-->
+    
+    <script>
+        $(function(){
+            
+            $( "#navigationpanel" ).load( "./components/nav.html",function(){
+            $('#navbar').addClass('static');// add the class after the nav is loaded
+            });
+        });
+      </script>
+    <!--Calling Footer-->
+
+    <script>
+        $(function(){
+            $('#footerpanel').load("./components/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--navbar-->
+    <div id="navigationpanel">
+    </div>
+    <section class="section-spacing bottom-none inverse-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="z-index: -1;">
+                    <h2><span>Gallery</span></h2>
+                    
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul id="filter-list">
+                        <li class="filter active" data-filter="all">All</li>
+                        <li class="filter" data-filter="1">Social Work</li>
+                        <li class="filter" data-filter="2">International</li>
+                        <li class="filter" data-filter="3">Camps</li>
+                        <li class="filter" data-filter="4">Health camps</li>
+                        <li class="filter" data-filter="5">Blood donation camp</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="product">
+
+            <div class="item-box 1">
+                <img src="./img/1.jpg" alt="">
+            </div>
+            <div class="item-box 2">
+                <img src="./img/2.jpg" alt="">
+
+            </div>
+            <div class="item-box 3">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+            <div class="item-box 4">
+                <img src="./img/2.jpg" alt="">
+
+            </div>
+            <div class="item-box 5">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+            <div class="item-box 5">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+            <div class="item-box 2">
+                <img src="./img/2.jpg" alt="">
+
+            </div>
+            <div class="item-box 3">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+            <div class="item-box 4">
+                <img src="./img/2.jpg" alt="">
+
+            </div>
+            <div class="item-box 5">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+            <div class="item-box 5">
+                <img src="./img/2.jpg" alt="">
+
+            </div>
+            <div class="item-box 5">
+                <img src="./img/1.jpg" alt="">
+
+            </div>
+        </div>
+
+        <script src='./js/jquery-3.5.1.min.js'></script>
+        <script src="./js/gallery_test.js"></script>
+
+
+    </section>
+    <!-- jQuery -->
+    <!-- <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src=".js/popper.min.js"></script>
+    <script src="./js/jquery.filterizr.min.js"></script>
+    <script src="./js/gallery_test.js"></script> -->
+
+</body>
+
+</html>
+<div id="footerpanel">
+
+</div>
+<!-- js/jquery-3.3.1.min.js  -->

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!--custom page stylesheet-->
+    <link rel="stylesheet" href="./css/about-us.css">
+    <!--navigation ,footer stylesheet  and loader-->
+    <link rel="stylesheet" href="/css/NavigationBar.css">
+    <link rel="stylesheet" href="./css/loader.css">  <!--sakshi 27-10-->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- Bootstrap, JS, Popper and Jquery -->
+	<link rel="stylesheet" href="./css/Bootstrap4.5.2/bootstrap.min.css">
+    <script src="./js/jquery-3.5.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./js/Bootstrap4.5.2/bootstrap.min.js"></script>
+    
+    <!--fade-in-out-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!--Calling Navigation Bar-->
+    
+    <script>
+        $(function(){
+            
+            $( "#navigationpanel" ).load( "./components/nav.html",function(){
+            $('#navbar').addClass('static');// add the class after the nav is loaded
+            });
+        });
+      </script>
+
+    <!--Calling Footer-->
+    
+    <script>
+      $(function(){
+          $('#footerpanel').load("./components/footer.html");
+      });
+  </script>
+
+  </head>
+<body>
+    <!--Navigation bar-->
+    <div id="navigationpanel">
+
+    </div>
+    <div class="about_us_main_div">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-about-us-tab" data-toggle="pill" href="#about-us" role="tab" aria-controls="v-pills-about-us" aria-selected="true">About us</a>
+                    <a class="nav-link" id="v-pills-mission-tab" data-toggle="pill" href="#mission" role="tab" aria-controls="v-pills-mission" aria-selected="false">Mission</a>
+                    <a class="nav-link" id="v-pills-what-we-do-tab" data-toggle="pill" href="#what-we-do" role="tab" aria-controls="v-pills-what-we-do" aria-selected="false">What we do</a>
+                    <a class="nav-link" id="v-pills-how-we-work-tab" data-toggle="pill" href="#how-we-work" role="tab" aria-controls="v-pills-how-we-work" aria-selected="false">How we work</a>
+                    <a class="nav-link" id="v-pills-team-tab" data-toggle="pill" href="#team" role="tab" aria-controls="v-pills-team" aria-selected="false">The Team</a>
+                  
+                </div>
+                </div>
+                <div class="col-10" style="z-index: -1;">
+                  <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="about-us" role="tabpanel" aria-labelledby="v-pills-about-us-tab">
+                            
+                            <div class="about_us">
+                                <h2 class="heading">About Us</h2>
+                                 <img class="about_img1" src="img/1.jpg">
+                                 <div class="about_content">
+                                    <p>Born in December 2015 in Sonipat, Haryana, this NGO stemmed from the aspiration of building a nation
+                                       of selfless youth with high spirits of social services. We believe that Seva should not be the dharma 
+                                       of only elderlies, rather young minds must be at the forefront of a revolution. When empowered, they can
+                                       be the key agents for development and peace. While stumbling our way forward, a dedicated and passionate
+                                       team of volunteers was created who helped the foundation in achieving great heights. Our foundation
+                                       completely centers around the future of our nation- youth, we constantly look forward to ways in which
+                                       we can inculcate the sense of social work among them. Giving money to the needy or feeding the hungry are
+                                       not only ways of Seva, but making a sad face smile is also considered as Seva. We wish to see the
+                                       youth working for a better tomorrow. We believe that only a life lived for others is a life worthwhile.
+                                    </p>
+                           
+                                    <p>There are various NGOs doing the work of Seva in our country but the question still remains that what our
+                                       youth is doing in this field and also how much guidance do they need. Keeping all of this in mind, we
+                                       started the YUVA & SEVA FOUNDATION.
+                                    </p>
+                                 </div>
+                                       
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="v-pills-mission-tab">
+                            <div class="mission">
+                                <h2 class="heading">Mission Statement</h2>
+                                <img class="mission_img" src="img/swami-vivekananda.png">
+                                <p class="mission_content" style="margin-top: 10%;">We aim to encourage the youth to help and serve the underprivileged masses of our society. We also
+                                    look
+                                    forward to the development of patriotism and awareness towards ecological and environmental welfare.
+                                </p>
+                  
+                                <p class="mission_content">Leaving the responsibility of national development in the hands of the youth through associating them
+                                    with social service activities. 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="what-we-do" role="tabpanel" aria-labelledby="v-pills-what-we-do-tab">
+                            <div class="what-we-do">
+                                <h2 class="heading">What we do ?</h2>
+                                <img src="/img/2.jpg" class="what-we-do_img">
+                                <div class="what-we-do_content">
+                                 <p>Born in December 2015 in Sonipat, Haryana, this NGO stemmed from the aspiration of building a nation
+                                    of selfless youth with high spirits of social services. We believe that Seva should not be the dharma 
+                                    of only elderlies, rather young minds must be at the forefront of a revolution. When empowered, they can
+                                    be the key agents for development and peace. While stumbling our way forward, a dedicated and passionate
+                                    team of volunteers was created who helped the foundation in achieving great heights. Our foundation
+                                    completely centers around the future of our nation- youth, we constantly look forward to ways in which
+                                    we can inculcate the sense of social work among them. Giving money to the needy or feeding the hungry are
+                                    not only ways of Seva, but making a sad face smile is also considered as Seva. We wish to see the
+                                    youth working for a better tomorrow. We believe that only a life lived for others is a life worthwhile.
+                                 </p>
+                        
+                                 <p>There are various NGOs doing the work of Seva in our country but the question still remains that what our
+                                    youth is doing in this field and also how much guidance do they need. Keeping all of this in mind, we
+                                    started the YUVA & SEVA FOUNDATION.
+                                 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="how-we-work" role="tabpanel" aria-labelledby="v-pills-how-we-work-tab">
+                            <div class="how-we-work">
+                                <h2 class="heading">How we work ?</h2>
+                                <img src="/img/1.jpg" class="how-we-work_img">
+                                <div class="how-we-work_content">
+                                    <p>Born in December 2015 in Sonipat, Haryana, this NGO stemmed from the aspiration of building a nation
+                                    of selfless youth with high spirits of social services. We believe that Seva should not be the dharma 
+                                    of only elderlies, rather young minds must be at the forefront of a revolution. When empowered, they can
+                                    be the key agents for development and peace. While stumbling our way forward, a dedicated and passionate
+                                    team of volunteers was created who helped the foundation in achieving great heights. Our foundation
+                                    completely centers around the future of our nation- youth, we constantly look forward to ways in which
+                                    we can inculcate the sense of social work among them. Giving money to the needy or feeding the hungry are
+                                    not only ways of Seva, but making a sad face smile is also considered as Seva. We wish to see the
+                                    youth working for a better tomorrow. We believe that only a life lived for others is a life worthwhile.
+                                    </p>
+                        
+                                    <p>There are various NGOs doing the work of Seva in our country but the question still remains that what our
+                                    youth is doing in this field and also how much guidance do they need. Keeping all of this in mind, we
+                                    started the YUVA & SEVA FOUNDATION.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="v-pills-team-tab">
+                           <div class="team">
+                              <div class="team_ab">
+                                 <h2 class="heading"> Office Bearers</h2>
+                                 <div class="row">
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Vikas Atri Ji</h2>
+                                         <h4>Chairman</h4>
+                                         <p>Sonipat</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Sarita Ji</h2>
+                                         <h4>Secretary</h4>
+                                         <p>Jhajjar</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Ravinder Ji </h2>
+                                         <h4>Treasurer</h4>
+                                         <p>Jind</p>
+                                      </div>
+                                 
+                                      <div class="card_ab " >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Parul Ji</h2>
+                                         <h4>Co-treasurer</h4>
+                                         <p>Gohana</p>
+                                      </div>
+                          
+                                      <div class="card_ab " >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Satyanand ji</h2>
+                                         <h4>State Education Outreach Head </h4>
+                                         <p>Lorem ipsum</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Dr. Jyoti ji</h2>
+                                         <h4>State Health Outreach Head</h4>
+                                         <p>Lorem ipsum </p>
+                                      </div>
+                          
+                                 
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Kamal Ji</h2>
+                                         <h4>State Environment Outreach Head</h4>
+                                         <p>Lorem ipsum </p>
+                                      </div>
+ 
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2> Kamal Ji </h2>
+                                         <h4>Regional Advertising Head </h4>
+                                         <p>Hisar</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Gaurav Dutt Ji</h2>
+                                         <h4> State social media head</h4>
+                                         <p>Lorem ipsum </p>
+                                      </div>
+                                 </div>
+                     
+                                 
+                     
+                     
+                                 <h2 class="heading">Maardarshak Mandal </h2>
+                                 <div class="row team2">
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Shri Vikas Ji </h2>
+                                         <p>Panipat</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Dr. Tajendra Ji</h2>
+                                         <p> Kurukshetra</p>
+                                      </div>
+                          
+                                      <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Dr. Tirthankar ji </h2>
+                                         <p>Karnal</p>
+                                      </div>
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Dr. Yogesh Ji </h2>
+                                         <p>Rohtak</p>
+                                     </div>
+                          
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Mr. Vijay Ji </h2>
+                                         <p>Hisar</p>
+                                     </div>
+                          
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Dr. Naresh Bhargava Ji</h2>
+                                         <p>Khanpur</p>
+                                     </div>
+                                 </div>
+                     
+                                 
+                     
+                                 <h2 class="heading">Trustee Members</h2>
+                     
+                                 <div class="row team3">
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Adv. Devendra Ji</h2>
+                          
+                                         <p> Delhi</p>
+                                     </div>
+                          
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Shri Krishna Ji</h2>
+                                         <p> Ambala</p>
+                                     </div>
+                          
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Shri Vikas Ji</h2>
+                                         <p> Jhajjar</p>
+                                     </div>
+                                 
+                                     <div class="card_ab" style="margin-left: 20%;" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Mr. Mandeep Ji </h2>
+                                         <p>Sonipat</p>
+                                     </div>
+                          
+                                     <div class="card_ab" >
+                                         <div class="circle-container">
+                                            <img src="img/pnglogo (1).png">
+                                         </div>
+                                         <h2>Shri Shamsher Ji</h2>
+                                         <p>Jind</p>
+                                     </div>
+                                 </div>
+                              </div>
+                            
+                                
+                    
+                           </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerpanel">
+
+    </div> 
+    
+  <!--script-->
+  <script src="/js/footer.js"></script>
+</body>
+</html>

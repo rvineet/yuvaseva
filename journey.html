@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey
+    </title>
+    <link rel="stylesheet" href="./css/journey.css">
+    <link rel="stylesheet" href="/css/NavigationBar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <link rel="stylesheet" href="./css/Bootstrap4.5.2/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="./css/loader.css">   <!--sakshi 27-10-->
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <!-- JS, Popper and Jquery -->
+	
+    <script src="./js/jquery-3.5.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="./js/Bootstrap4.5.2/bootstrap.min.js"></script>
+    <!--Calling Navigation Bar-->
+    
+    <script>
+      $(function(){
+          
+          $( "#navigationpanel" ).load( "./components/nav.html",function(){
+          $('#navbar').addClass('static');// add the class after the nav is loaded
+          });
+      });
+    </script>
+
+    <!--Calling Footer-->
+    
+    <script>
+      $(function(){
+          $('#footerpanel').load("./components/footer.html");
+      });
+  </script>
+  
+</head>
+<body>
+  <!--Navigation bar-->
+  <div id="navigationpanel">
+
+  </div>
+  <section class="intro">
+    <div class="container intro_container">
+      <h1>YUVA and SEVA was founded in December 2015</h1>
+    </div>
+  </section>
+    <div class="container">
+          <section class="timeline">
+            <ul style="padding-top: 25px;">
+              <li>
+                <div>
+                  <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+                </div>
+              </li>
+            </ul>
+          </section>
+    </div>
+  </section>
+  <!--script-->
+  <script src="/js/journey.js"></script>
+  
+
+</body>
+</html>
+<div id="footerpanel">
+
+</div> 

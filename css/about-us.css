@@ -1,0 +1,166 @@
+.about_us_main_div{
+    z-index: 5 !important;
+    margin-top: 10px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background:  linear-gradient(to bottom,rgba(0,0,0,0.2), rgba(0,0,0,0.8)) !important;
+    color:white !important;
+}
+.nav-link{
+    width: 80%;
+    color:rgba(255, 111, 0, 0.8);
+}
+.nav-link:hover{
+    color:orange;
+}
+.tab-content{
+    width:95%;
+}
+/*about us */
+.about_us{
+    animation: loading 500ms ease-in;
+}
+.about_img1{
+    width:50%;
+    float:left;
+    padding: 0 10px 0 0;
+}
+.about_content{
+    text-align: justify;
+    padding-right:8px;
+}
+
+/*mission */
+.mission{
+    animation: loading 500ms ease-in;
+}
+.mission_img{
+    width:30%;
+    float:right;
+}
+.mission_content{
+    text-align: justify;
+}
+/* what-we-do*/
+.what-we-do{
+    animation: loading 500ms ease-in;
+}
+.what-we-do_img{
+    width: 50%;
+    float: left;
+    padding: 0 10px 0 0;
+}
+.what-we-do_content{
+    text-align: justify;
+    padding-right:8px;
+}
+/*how-we-work */
+.how-we-work{
+    animation: loading 500ms ease-in;
+}
+.how-we-work_img{
+    width:50%;
+    float:right;
+    padding-left: 10px;
+}
+.how-we-work_content{
+    padding-left: 8px;
+    text-align: justify;
+}
+/* the team */
+.team{
+    animation: loading 500ms ease-in;
+}
+.team_ab {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    /*to align list at centre*/
+}
+
+.heading {
+    width: 75%;
+    text-align: center;
+    font-family: 'Montserrat-Regular' !important;
+    font-weight: bold;
+    background: linear-gradient(to bottom,  rgba(255, 111, 0, 0), rgba(255, 111, 0, 0.9));
+    color: black;
+    margin: 0 auto 25px;
+}
+
+.team_ab .card_ab {
+    padding-top: 10px;
+    position: relative;
+    height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: white;
+    display: inline-block;
+    margin:3.5%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.team2 .card_ab{
+    height: 350px;
+}
+.team3 .card_ab{
+    height: 300px;
+}
+
+.card_ab .circle-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+    color: black;
+}
+
+.card_ab .circle-container img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.circle-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 60px;
+}
+
+.card_ab {
+    width: fit-content !important;
+}
+
+.team_ab .card_ab h2 {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.team_ab .card_ab h4 {
+    color:rgba(255, 111, 0, 0.9);
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.team_ab .card_ab p {
+    width: 250px;
+    margin: 30px auto;
+    text-align: center;
+}
+/*loading*/
+  
+@keyframes loading{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

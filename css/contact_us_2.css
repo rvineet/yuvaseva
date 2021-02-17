@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(243, 197, 162, 0.1);
+}
+
+.contact_box {
+    background-color: white;
+    display: flex;
+    margin: 12px auto 12px auto;
+    font-size: 14px;
+    font-family:  'sans-serif' !important;
+    max-width: 1170px;
+    flex-direction: row;
+}
+.contact_us_label{
+    background-color: white;
+    font-size: 18px;
+    font-family:  'sans-serif' !important;
+    max-width: 1170px;
+    flex-direction: row;
+    font-weight: 600;
+    
+}
+
+.contact_left {
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+.contact_right {
+    flex-basis: 40%;
+    padding: 20px;
+    background-color: rgba(255, 111, 0, 0.6);
+    color: white;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+/* .input_group{
+    padding-left: 10px;
+} */
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.input-row label {
+    margin-bottom: 3px;
+}
+
+#subject {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+}
+
+.btn {
+    background: rgba(255, 111, 0, 0.6);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact_left h3 {
+    color: rgba(255, 111, 0, 0.6);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact_right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact_right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card {
+    margin: 20px;
+}
+
+.fa-3x {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center;
+}
+
+.card-body {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px !important;
+}
+
+.social_container {
+    text-align: center;
+}
+
+.social_container i {
+    margin: 30px;
+}
+
+hr {
+    width: 270px;
+    height: 1px;
+   margin:  30px auto 20px auto;
+  
+}
+
+/* media query for  */
+
+@media(max-width:425px) {
+    .contact_box {
+        flex-direction: column;
+    }
+}
+
+.contact_us_2_card{
+    position: relative;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+/* background-color: #fff; */
+background-color:   rgba(255, 111, 0, 0);
+background-clip: border-box;
+border: 1px solid rgb(255,255,255) !important;
+border-radius: .25rem;
+}
+/* 'Poppins', sans-serif;'Poppins', sans-serif; */
